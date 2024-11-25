@@ -12,7 +12,7 @@ public class practice {
             arrays[i]=sc.nextInt();
 
         }
-        for(int i=0;i<n;i++)
+        for(int i=0;i<arrays.length;i++)
         {
             if(arrays[i]==element)
             {
