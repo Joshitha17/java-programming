@@ -1,24 +1,40 @@
-import java.util.Scanner;
+//import java.util.Scanner;
+// public class practice{
+//     public static void main (String [] args)
+//     {
+//         //Scanner sc=new Scanner(System.in);
+//         int n=4;
+//         for(int i=1;i<=n;i++)
+//         {
+//             for(int j=n-i;j>=1;j--)
+//             {
+//                 System.out.print(" ");
+//             }
+//             for(int j=1;j<=i;j++)
+//             {
+//                 System.out.print("*");
+//             }
+//             for(int j=2;j<=i;j++)
+//             {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
 
-public class practice {
-    public static void main(String args[])
-    {
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        int element=3;
-        int [] arrays = new int [n];
-        for(int i=0;i<n;i++)
+public class practice{
+    public static void main(String[] args) {
+        int n=4;
+        int num=1;
+        for(int i=1;i<=n;i++)
         {
-            arrays[i]=sc.nextInt();
-
-        }
-        for(int i=0;i<arrays.length;i++)
-        {
-            if(arrays[i]==element)
+            for(int j=1;j<=i;j++)
             {
-                System.out.println("element found at index"+i);
+                System.out.print(num + " ");
+                num++;
             }
+            System.out.println();
         }
-
     }
 }
