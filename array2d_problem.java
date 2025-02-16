@@ -23,7 +23,7 @@ public class array2d_problem {
                     System.out.println("element found at position "+i+" "+j);
                 }
             }
-            System.out.println();   
+            System.out.println();
         }
     }
 }
